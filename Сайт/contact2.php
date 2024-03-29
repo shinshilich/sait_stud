@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>University-Contact</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="style.css">
@@ -14,15 +15,14 @@
 <body>
     <section class="subheader">
         <nav>
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <a href="Index.php"><img src="images/logo.png" alt=""></a>
             <div class="nav-links" id="navlinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="about.html">О нас</a></li>
-                    <li><a href="Course.html">Преподаватели</a></li>
-                    <li><a href="Blog.html">Расписание</a></li>
-                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a href="Index.php">Главная</a></li>
+                    <li><a href="about.php">О нас</a></li>
+                    <li><a href="entry.php">Студенту</a></li>
+                    <li><a href="contact.php">Контакты</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -59,14 +59,15 @@
                 </div>
             </div>
             <div class="contact-col">
-                <form action="formhandler.php" method="post">
+                <form action="form.php" method="post">
                     <input type="text" name="name" placeholder="Введите имя"reqired>
-                    <input type="email" name="email" placeholder="Введите номер"reqired>
+                    <input type="email" name="email" placeholder="Введите почту"reqired>
                     <input type="text" name="subject" placeholder="Введите тему вопроса"reqired>
                     <textarea rows="8" name="message" placeholder="Сообщение" required></textarea>
                     <button type="submit" class="hero-btn red-btn">
                         Отправить
                     </button>
+                    <h4>Ваш вопрос получен!</h4>
                 </form>
 
             </div>
@@ -82,11 +83,11 @@
     <h4>О нас</h4>
     <p>Узнайте больше в социальных сетях</p>
     <div class="icons">
-    <i class="fa fa-facebook"></i>
-    <i class="fa fa-twitter"></i>
-    <i class="fa fa-google"></i>
-    <i class="fa fa-instagram"></i>
-    <i class="fa fa-linkedin"></i>
+     <a href="https://kgeu.ru/"><i class="fa fa-facebook"></i></a>
+     <a href="https://kgeu.ru/"><i class="fa fa-twitter"></i></a>
+     <a href="https://kgeu.ru/"><i class="fa fa-google"></i></a>
+     <a href="https://kgeu.ru/"><i class="fa fa-instagram"></i></a>
+     <a href="https://kgeu.ru/"><i class="fa fa-linkedin"></i></a>
     </div>
     </section>
 <!--- javascript code from here---> 

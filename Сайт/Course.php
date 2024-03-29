@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>University-About</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="style.css">
@@ -14,15 +15,14 @@
 <body>
     <section class="subheader">
         <nav>
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <a href="Index.php"><img src="images/logo.png" alt=""></a>
             <div class="nav-links" id="navlinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="about.html">Общая информация</a></li>
-                    <li><a href="Course.html">Преподаватели</a></li>
-                    <li><a href="Blog.html">Расписание</a></li>
-                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a href="Index.php">Главная</a></li>
+                    <li><a href="about.php">Общая информация</a></li>
+                    <li><a href="entry.php">Студенту</a></li>
+                    <li><a href="contact.php">Контакты</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>

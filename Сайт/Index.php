@@ -1,7 +1,12 @@
+<?php 
+    include "databases.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>University Website Design</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="style.css">
@@ -14,24 +19,23 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <a href="Index.php"><img src="images/logo.png" alt=""></a>
             <div class="nav-links" id="navlinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="about.html">Общая информация</a></li>
-                    <li><a href="Course.html">Преподаватели</a></li>
-                    <li><a href="Blog.html">Расписание</a></li>
-                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a href="Index.php">Главная</a></li>
+                    <li><a href="about.php">Для абитуриентов</a></li>
+                    <li><a href="entry.php">Студенту</a></li>
+                    <li><a href="contact.php">Контакты</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
     <div class="textbox">
-        <h1>Лучший Университет в мире</h1>
+        <h1>Лучший университет в мире!</h1>
         <p>Добро пожаловать!
         </p>
-        <a href="" class="hero-btn">Посетите нас, чтобы узнать больше!</a>
+        <a href="about.php" class="hero-btn">Посетите нас, чтобы узнать больше!</a>
     </div>
     </section>
     <!------- course --------->
@@ -134,18 +138,18 @@
 <!--call to action -->
  <section class="cta">
      <h1>Подайте заявку на поступление <br>из любой точки мира</h1>
-     <a href="" class="hero-btn">НАШИ КОНТАКТЫ</a>
+     <a href="contact.php" class="hero-btn">НАШИ КОНТАКТЫ</a>
  </section>
  <!---Footer-->
  <section class="footer">
      <h4>О нас</h4>
      <p>Узнавайте о наших событиях из соцсетей</p>
      <div class="icons">
-     <i class="fa fa-facebook"></i>
-     <i class="fa fa-twitter"></i>
-     <i class="fa fa-google"></i>
-     <i class="fa fa-instagram"></i>
-     <i class="fa fa-linkedin"></i>
+     <a href="https://kgeu.ru/"><i class="fa fa-facebook"></i></a>
+     <a href="https://kgeu.ru/"><i class="fa fa-twitter"></i></a>
+     <a href="https://kgeu.ru/"><i class="fa fa-google"></i></a>
+     <a href="https://kgeu.ru/"><i class="fa fa-instagram"></i></a>
+     <a href="https://kgeu.ru/"><i class="fa fa-linkedin"></i></a>
      </div>
      </section>
 
