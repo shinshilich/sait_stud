@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" modified="2024-03-29T09:13:05.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="wby0zt_btnSiG5Vq2uEF" version="24.2.1" type="device">
+  <diagram name="Страница — 1" id="NTJzLdgHY6nBGKSZh6r4">
+    <mxGraphModel dx="2069" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-1" value="Регистрация и аутентификация" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-2" value="Управление расписание" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-3" value="Новости и события" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-4" value="Управление обратной связью" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ph9ImoRxTOqSh8g1Ih8S-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="440" as="sourcePoint" />
+            <mxPoint x="460" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-8" value="Регистрация пользователя" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="228" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-9" value="Аутентификация пользоателя" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="278" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-10" value="Восстановление доступа" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="338" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ph9ImoRxTOqSh8g1Ih8S-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="440" as="sourcePoint" />
+            <mxPoint x="460" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-12" value="Просмотр расписания" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="258" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-14" value="Изменение расписания" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ph9ImoRxTOqSh8g1Ih8S-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="460" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-16" value="Публикация новостей" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="238" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-17" value="Управление категориями" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-18" value="Добавление и удаление новостей" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="368" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ph9ImoRxTOqSh8g1Ih8S-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="440" as="sourcePoint" />
+            <mxPoint x="460" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-23" value="Сбор обратной связи" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="248" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-24" value="Анализ обратной связи" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="308" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-25" value="Оценка удовлетворенности&amp;nbsp;&lt;div&gt;пользователей&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="368" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ph9ImoRxTOqSh8g1Ih8S-26" target="ph9ImoRxTOqSh8g1Ih8S-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="120" as="sourcePoint" />
+            <mxPoint x="80" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ph9ImoRxTOqSh8g1Ih8S-26" target="ph9ImoRxTOqSh8g1Ih8S-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="120" />
+              <mxPoint x="540" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ph9ImoRxTOqSh8g1Ih8S-26" target="ph9ImoRxTOqSh8g1Ih8S-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="120" />
+              <mxPoint x="760" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph9ImoRxTOqSh8g1Ih8S-26" value="Сайт для университета" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
